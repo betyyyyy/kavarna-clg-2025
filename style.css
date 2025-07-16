@@ -138,4 +138,5 @@ header {
 .primary-button:hover {
     background: #e13c6e;
     color: #ffffff ;
+    border: 2px solid #e43167
 }
