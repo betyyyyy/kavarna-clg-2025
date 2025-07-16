@@ -34,6 +34,7 @@ header h1 {
     color: #D7007A;
     padding: 20px;
     margin: 0;
+    text-align: center;
 }
 
 .buttons {
@@ -155,19 +156,22 @@ button:hover {
     font-size: 1.2em;
     margin-top: 15px;
 }
+
+/* Social Media Icons */
 .social-icons {
-  text-align: center;
-  margin: 20px 0;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
 
-.social-icons a {
-  color: #e91e63; /* pink shade */
-  margin: 0 10px;
-  font-size: 24px;
-  text-decoration: none;
-  transition: color 0.3s ease;
+.social-icon svg {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-.social-icons a:hover {
-  color: #ad1457; /* darker pink on hover */
+.social-icon:hover svg {
+  transform: scale(1.2);
 }
