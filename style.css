@@ -26,7 +26,7 @@ header h1 {
     background-color: rgba(255, 255, 255, 0.9); /* Light background for the panel */
     border-radius: 25px; /* Rounded corners for the panel */
     box-shadow: 0 10px 30px rgba(236, 52, 108, 0.15); /* Light shadow for depth */
-
+    place-self: end center;
 }
 
 .container {
