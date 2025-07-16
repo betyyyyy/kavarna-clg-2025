@@ -115,3 +115,27 @@ header {
     font-size: 1.2em;
     margin-top: 15px;
 }
+.welcome-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.secondary-button {
+    background: #ffd1dc;
+    color: #e75480;
+    border: 2px solid #e75480;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 1em;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.secondary-button:hover {
+    background: #e75480;
+    color: white;
+}
