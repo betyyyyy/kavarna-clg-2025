@@ -1,36 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>404 - Memory Not Found</title>
-    <link href="https://fonts.google.com/specimen/Seymour+One?preview.text=404-Memory%20Not%20Found" rel="stylesheet">
-    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Seymour+One?preview.text=404-Memory%20Not%20Found" rel="stylesheet" />
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffc0cb 0%, #ffe6f0 100%);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #d6006c;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 50%;
+            margin: 40px auto 60px auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 30px 40px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(236, 52, 108, 0.15);
+            text-align: center;
+        }
+
+        .welcome-text {
+            color: #d6006c;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin: 10px 0 20px 0;
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .primary-button {
+            background-color: #fca3bf;
+            border: none;
+            color: white;
+            padding: 12px 28px;
+            font-size: 1.1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .primary-button:hover {
+            background-color: #e57a9a;
+        }
+
+        /* Drink Menu styles remain unchanged */
+        .menu-content {
+            max-width: 80%;
+            margin: 0 auto 60px auto;
+            padding: 0 20px;
+        }
+
+        .menu-content h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .menu-slot {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(236, 52, 108, 0.15);
+            text-align: center;
+        }
+
+        .slot-image img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .menu-slot h3 {
+            margin: 10px 0 8px 0;
+            color: #d6006c;
+        }
+
+        .menu-slot p {
+            font-size: 0.95rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #d6006c;
+            font-size: 1.1rem;
+        }
+    </style>
 </head>
 <body>
 
 <header>
-    <h1>404 - Memory Not Found</h1> <!-- Increased the size of the 404 headline -->
+    <h1>404 - Memory Not Found</h1>
 </header>
-<!-- Welcome Panel -->
+
 <div class="container">
     <div class="welcome-panel">
         <h1 class="welcome-text">Vítejte!</h1>
         <p>Enjoy magical pink vibes, sweet milkshakes, and lots of strawberries.</p>
         <p>Make every day as sweet as a strawberry milkshake love potion!</p>
-        <!-- Removed the "Drink Menu" button and replaced with "O našich barmankách" -->
         <div class="buttons">
             <a class="primary-button" href="zkouska.html" target="_blank">O našich barmankách</a>
         </div>
     </div>
 </div>
 
-<!-- Drink Menu Section -->
 <div class="menu-content">
     <h2>Drink Menu</h2>
     <div class="menu-grid">
         <div class="menu-slot">
             <div class="slot-image">
-                <img src="img/image.png" alt="Drama Queen Colada"/>
+                <img src="img/image.png" alt="Drama Queen Colada" />
             </div>
             <h3>Drama Queen Colada</h3>
             <p>Pije se s brčkem a agresivními poznámkami</p>
@@ -38,7 +147,7 @@
         </div>
         <div class="menu-slot">
             <div class="slot-image">
-                <img src="img/image (1).png" alt="Frozen Aura"/>
+                <img src="img/image (1).png" alt="Frozen Aura" />
             </div>
             <h3>Frozen Aura</h3>
             <p>Ledová královna v terapii</p>
@@ -46,7 +155,7 @@
         </div>
         <div class="menu-slot">
             <div class="slot-image">
-                <img src="img/image (2).png" alt="Pink Daydream"/>
+                <img src="img/image (2).png" alt="Pink Daydream" />
             </div>
             <h3>Pink Daydream Mist</h3>
             <p>Snění na růžovém obláčku</p>
@@ -54,7 +163,7 @@
         </div>
         <div class="menu-slot">
             <div class="slot-image">
-                <img src="img/levander.png" alt="Sopoforic Levander Elixir"/>
+                <img src="img/levander.png" alt="Sopoforic Levander Elixir" />
             </div>
             <h3>Sopoforic Levander Elixir</h3>
             <p>Levandulová chuť tohoto nápoje, vás přenese až do dalšího rána, takový spánek jste ještě nezažili</p>
@@ -62,7 +171,7 @@
         </div>
         <div class="menu-slot">
             <div class="slot-image">
-                <img src="img/matcha.png" alt="Speed March"/>
+                <img src="img/matcha.png" alt="Speed March" />
             </div>
             <h3>Speed March</h3>
             <p>Propadněte se do energie pravé japonské matchy</p>
@@ -70,7 +179,7 @@
         </div>
         <div class="menu-slot">
             <div class="slot-image">
-                <img src="img/dragon.png" alt="Chinese Heartbreak Dragonball"/>
+                <img src="img/dragon.png" alt="Chinese Heartbreak Dragonball" />
             </div>
             <h3>Chinese Heartbreak Dragonball</h3>
             <p>Vypalte ze sebe svoje démony, aby jste byli připravení do nového vztahu</p>
