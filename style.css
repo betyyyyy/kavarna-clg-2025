@@ -126,7 +126,7 @@ header {
 
 .primary-button {
     background: #e07d9b;
-    color: #ef9fbb;
+    color: #ffffff;
     border: 2px solid #ee5885;
     border-radius: 25px;
     padding: 10px 25px;
@@ -137,6 +137,6 @@ header {
 
 .primary-button:hover {
     background: #e13c6e;
-    color: #ffffff ;
+    color: #f6b1d1 ;
     border: 2px solid #c2325d
 }
