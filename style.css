@@ -15,14 +15,17 @@ header h1 {
     color: white;
     padding: 20px;
     text-align: center;
-    margin: 0
-    place-self : end center;
+    margin: 0;
+    place-self: end center;
 }
 
 .welcome-panel {
     padding-bottom: 20px;
     }
 
+    .text-panel {
+    padding-bottom: 20px;
+    }
 /* Welcome Section */
 .container {
     max-width: 900px;
