@@ -140,3 +140,9 @@ header {
     color: #ffffff ;
     border: 2px solid #e13d6e
 }
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* optional spacing */
+}
