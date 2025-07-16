@@ -15,8 +15,10 @@ header h1 {
     color: white;
     padding: 20px;
     text-align: center;
-    margin: 0;
+    margin: 0
+    place-self : end center;
 }
+
 
 /* Welcome Section */
 .container {
@@ -33,6 +35,7 @@ header h1 {
 .container {
   display: flex;
   flex-wrap: nowrap; /* nebo wrap, wrap-reverse */
+  place-self: end center;
 }
 
 .welcome-text {
@@ -42,6 +45,7 @@ header h1 {
     padding: 50px;
     margin: 0;
     text-align: center;
+    place-self: end center;
 }
 
 .buttons {
