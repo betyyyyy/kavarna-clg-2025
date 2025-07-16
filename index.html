@@ -15,7 +15,18 @@
 <body>
 
 <header>
-    <h1>404 - Memory Not Found Bar</h1>
+    header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icons {
+  order: -1; /* moves social-icons before the h1 */
+  display: flex;
+  gap: 15px;
+}
+<h1>404 - Memory Not Found Bar</h1>
     <div class="social-icons">
       <a href="https://www.instagram.com/404errorbarstrawberry/" target="_blank" aria-label="Instagram">
         <i class="fab fa-instagram"></i> 
