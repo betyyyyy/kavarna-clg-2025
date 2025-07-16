@@ -124,7 +124,7 @@ header {
     margin-bottom: 20px;
 }
 
-.secondary-button {
+.primary-button {
     background: #ffd1dc;
     color: #e75480;
     border: 2px solid #e75480;
@@ -135,23 +135,7 @@ header {
     transition: background 0.3s, color 0.3s;
 }
 
-.secondary-button:hover {
+.primary-button:hover {
     background: #e75480;
     color: white;
-}
-
-.primary-button {
-    background: #fff;
-    color: #fc6c85;
-    border: 2px solid #fc6c85;
-    border-radius: 25px;
-    padding: 10px 25px;
-    font-size: 1em;
-    text-decoration: none;
-    transition: background 0.3s, color 0.3s;
-}
-
-.primary-button:hover {
-    background: #fc6c85;
-    color: #fff;
 }
