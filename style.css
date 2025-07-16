@@ -136,6 +136,6 @@ header {
 }
 
 .primary-button:hover {
-    background: #e75480;
-    color: white;
+    background: white;
+    color: #e75480 ;
 }
