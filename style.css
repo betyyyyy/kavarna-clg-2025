@@ -76,7 +76,7 @@ button:hover {
 .button-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 /* Drink Menu Section */
