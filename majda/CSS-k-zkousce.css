@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffe6f0;
+  color: #333;
+}
+
+header {
+  background-color: #ffcce0;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #f9a8c3;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #d63384;
+}
+
+.authors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.author-card {
+  background-color: #fff0f5;
+  border: 2px solid #f9a8c3;
+  border-radius: 0;
+  width: 250px;
+  height: 500px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(255, 182, 193, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.author-card:hover {
+  transform: translateY(-5px);
+}
+
+.author-card h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #e75480;
+}
+
+.author-card p {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #e75480;
+}
+
+.author-card img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffcce0;
+  color: #a33f6b;
+  border-top: 2px solid #f9a8c3;
+}
+
+@media (max-width: 600px) {
+  .authors {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .author-card {
+    width: 90%;
+    height: auto;
+  }
+}
