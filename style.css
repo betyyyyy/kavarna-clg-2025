@@ -155,3 +155,19 @@ button:hover {
     font-size: 1.2em;
     margin-top: 15px;
 }
+.social-icons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-icons a {
+  color: #e91e63; /* pink shade */
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ad1457; /* darker pink on hover */
+}
