@@ -3,23 +3,30 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ffe6f0;
+  background-color: #FFE6F0;
   color: #333;
 }
-
 header {
-  background-color: #ffcce0;
-  padding: 2rem;
-  text-align: center;
-  border-bottom: 2px solid #f9a8c3;
+  background-color: #FFCCE0;
+  padding: 0 2rem;
+  border-bottom: 2px solid #F9A8C3;
 }
-
+header img {
+  width: 150px;
+  text-align: left;
+      position: relative;
+    top: -30px;
+    left: -30px
+}
 header h1 {
   margin: 0;
-  font-size: 4rem;
-  color: #d63384;
+  text-align: center;
+  position: relative;
+  top: -60px;
+  font-size: 5rem;
+  font-weight: lighter;
+  color: #D63384;
 }
-
 .authors {
   display: flex;
   flex-wrap: wrap;
@@ -27,10 +34,9 @@ header h1 {
   padding: 2rem;
   gap: 2rem;
 }
-
 .author-card {
-  background-color: #fff0f5;
-  border: 2px solid #f9a8c3;
+  background-color: #FFF0F5;
+  border: 2px solid #F9A8C3;
   border-radius: 0;
   width: 250px;
   height: 500px;
@@ -39,47 +45,46 @@ header h1 {
   box-shadow: 0 5px 10px rgba(255, 182, 193, 0.3);
   transition: transform 0.3s ease;
 }
-
 .author-card:hover {
   transform: translateY(-5px);
 }
-
 .author-card h2 {
   font-family: 'Passions Conflict', cursive;
   font-size: 6rem;
   margin: 0.5rem 0;
-  color: #e75480;
+  color: #E75480;
 }
-
 .author-card p {
   font-weight: bold;
   font-size: 1rem;
   margin: 0.5rem 0;
-  color: #58112f;
+  color: #58112F;
 }
-
 .author-card img {
   margin-top: 1rem;
   margin-bottom: 1rem;
   object-fit: contain;
 }
-
 footer {
   text-align: center;
   padding: 1rem;
-  background-color: #ffcce0;
-  color: #a33f6b;
-  border-top: 2px solid #f9a8c3;
+  background-color: #FFCCE0;
+  color: #A33F6B;
+  border-top: 2px solid #F9A8C3;
 }
-
 @media (max-width: 600px) {
   .authors {
     flex-direction: column;
     align-items: center;
   }
-
   .author-card {
     width: 90%;
     height: auto;
   }
 }
+
+
+
+
+
+
