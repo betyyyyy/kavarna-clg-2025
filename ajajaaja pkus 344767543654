@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Naše Růžový Bar</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffe5ec 0%, #fcb6d0 100%);
+            font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+            margin: 0; padding: 0; min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .info-section {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            margin-bottom: 60px;
+            flex-wrap: wrap;
+        }
+        .info-section:nth-child(odd) .picture-frame {
+            order: 1;
+        }
+        .info-section:nth-child(odd) .text {
+            order: 2;
+            margin-left: 3vw;
+        }
+        .info-section:nth-child(even) .picture-frame {
+            order: 2;
+        }
+        .info-section:nth-child(even) .text {
+            order: 1;
+            margin-right: 3vw;
+        }
+        .picture-frame {
+            width: 400px;
+            height: 300px;
+            max-width: 95vw;
+            max-height: 60vw;
+            border: 7px solid #f9a6c8;
+            background: #fff6fa;
+            box-shadow: 0 8px 33px rgba(236, 52, 108, 0.14);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .picture-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .text {
+            flex: 1 1 480px;
+            background: rgba(255,255,255,0.89);
+            padding: 38px 34px;
+            box-shadow: 0 6px 28px rgba(236, 52, 108, 0.07);
+            color: #bc3570;
+            font-size: 1.19em;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .text ul, .text li {
+            color: #bc3570;
+            font-size: 1em;
+            margin-bottom: 0;
+        }
+        @media (max-width: 1100px) {
+            .container {max-width: 98vw;}
+            .info-section {
+                flex-direction: column;
+                align-items: center;
+            }
+            .text, .picture-frame {
+                margin: 0 0 28px 0 !important;
+                width: 95% !important;
+                max-width: 540px;
+            }
+            .picture-frame {
+                height: 45vw;
+                max-height: 60vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Sekce 1: Foto vlevo, historie vpravo -->
+        <div class="info-section">
+            <div class="picture-frame">
+                <img src="nasebudobaa.jpg" alt="Historie baru">
+            </div>
+            <div class="text">
+                <strong>Jak to všechno začalo?</strong><br>
+                Náš růžový bar vznikl v roce 2022 díky společné touze několika přátel vytvořit místo, kde se budou lidé cítit jako doma, ať už přijdou na rychlý drink po práci nebo na dlouhý, zábavný večer s přáteli. Samotná budova baru má za sebou bohatou historii – byla původně domovem malého divadelního klubu. Rozhodli jsme se zachovat její specifickou atmosféru a přidat hravé prvky, které náš bar odlišují od ostatních.<br><br>
+                Po měsících renovace a hledání unikátního stylu jsme otevřeli dveře pro všechny, kteří milují originální koktejly, kvalitní alkohol a příjemné setkání ve stylovém prostředí. Zachovali jsme původní cihlové zdi a přidali ikonické růžové neonové detaily, které dnes tvoří vizuální srdce našeho baru.<br><br>
+                Postupně jsme si vydobyli pověst místa, kde se rodí nové příběhy – ať už během bouřlivých večírků, tichých rozhovorů ve dvou, nebo tematických barových nocí naplněných skvělou hudbou i atmosférou.
+            </div>
+        </div>
+
+        <!-- Sekce 2: Suroviny vlevo, foto vpravo -->
+        <div class="info-section">
+            <div class="text">
+                <strong>Naše ingredience – kvalita zaručena</strong><br>
+                Věříme, že základem skvělého drinku jsou poctivé a čerstvé ingredience. Proto v našem baru používáme výhradně prémiový alkohol a sirupy připravené podle vlastních receptur. Domácí sirupy vyrábíme z bio ovoce od regionálních farmářů a naše džusy lisujeme každý den čerstvé.<br><br>
+                Rumy, giny, whiskey i likéry vybíráme od menších, často rodinných českých i zahraničních palíren, které kladou důraz na tradiční způsoby výroby a vysokou kvalitu. Voda na výrobu ledu i pro přípravu našich nápojů prochází čtyřstupňovou filtrací, abyste si mohli vychutnat každý doušek bez rušivých emelmentů.<br><br>
+                Na ekologii nám záleží – proto se snažíme minimalizovat odpad, používáme opakovaně využitelné brčka a podporujeme lokální palírny. Věříme, že to, co servírujeme, odráží nejen náš osobní přístup, ale také respsket k přírodě i našim hostům.
+            </div>
+            <div class="picture-frame">
+                <img src="dedek.jpg" alt="Naše ingredience">
+            </div>
+        </div>
+
+        <!-- Sekce 3: Foto vlevo, otev+dresa vpravo -->
+        <div class="info-section">
+            <div class="picture-frame">
+                <img src="2bar.jpg" alt="Umístění baru">
+            </div>
+            <div class="text">
+                <strong>Kde nás najdete a kdy máme otevřeno?</strong><br>
+                Najdete nás na adrese <b>Národní 23</b>, v samém centru města, doslova pár kroků od Národní třídy i kulturní čtvrti. Bar leží přímo naproti Náplavce, což z něj dělá ideální místo pro začátek i konec večera.<br><br>
+                Prostředí baru nabízí jak moderní barovou zónu ideální na večerní posezení, tak klidnější koutky pro menší skupinky nebo páry, a v létě také oblíbenou venkovní zahrádku. Naši barmani pravidelně připravují tematické koktejlové menu a rádi vám poradí s výběrem podle vaší chuti.<br><br>
+                <strong>Otevírací doba:</strong>
+                <ul style="padding-left:20px;text-align:left;margin:4px 0 10px 0;">
+                    <li><b>Pondělí–Čtvrtek:</b> 16:00 – 1:00</li>
+                    <li><b>Pátek–Sobota:</b> 16:00 – 5:00</li>
+                    <li><b>Neděle:</b> 17:00 – 2:00</li>
+                </ul>
+                Přijďte nás navštívit kdykoliv během otevírací doby, nebo pro rezervaci napište na:<br>
+                <b>strawberry@404bar.cz</b><br>
+                – těšíme se na vaši návštěvu!
+            </div>
+        </div>
+    </div>
+</body>
+</html>

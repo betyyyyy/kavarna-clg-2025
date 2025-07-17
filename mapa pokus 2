@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Kde nás najdete | Růžový bar</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ffe5ec 0%, #fcb6d0 100%);
+            font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .header {
+            background: rgba(255,255,255,0.98);
+            padding: 35px 15px 12px 15px;
+            text-align: center;
+            font-size: 2.5em;
+            color: #bc3570;
+            box-shadow: 0 1px 8px rgba(236,52,108,0.12);
+            letter-spacing: 2px;
+        }
+        .map-container {
+            background: rgba(255,255,255,0.94);
+            box-shadow: 0 0px 26px rgba(236, 52, 108, 0.08);
+            max-width: 1000px;
+            margin: 30px auto 0 auto;
+            padding: 28px 30px;
+            border-radius: 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .info-text {
+            max-width: 700px;
+            color: #e75480;
+            text-align: center;
+            font-size: 1.3em;
+            margin-bottom: 24px;
+        }
+        .map-iframe-wrapper {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(236, 52, 108, 0.10);
+        }
+        .map-iframe-wrapper iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        @media (max-width: 900px) {
+            .map-container {padding: 18px 1vw;}
+            .map-iframe-wrapper {height: 350px;}
+            .header {font-size: 1.6em;}
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Najdete nás zde
+    </div>
+    <div class="map-container">
+        <div class="info-text">
+            Náš Růžový bar se nachází v centru města, v docházkové vzdálenosti od hlavních dopravních uzlů i kulturních památek. Přijďte si užít večer s přáteli, skvělou atmosféru i originální koktejly.<br>
+            <strong>Růžová 123, 110 00 Praha</strong>
+        </div>
+        <div class="map-iframe-wrapper">
+            <!-- PASTE YOUR OWN GOOGLE MAPS EMBED CODE BELOW: -->
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.228811534806!2d14.415031776118868!3d50.082002771524216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94ee4e56753d%3A0x242346f3dc41d8ad!2sFriends%20Prague!5e0!3m2!1sen!2scz!4v1752673702447!5m2!1sen!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.9407496592526!2d14.413839876490927!3d50.08137971325352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94e7adc6ad5b%3A0x1cb6ecfaa472aebf!2sHemingway%20Bar!5e0!3m2!1scs!2scz!4v1717970000000!5m2!1scs!2scz" 
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>404 - Memory Not Found & Naše Růžový Bar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- If you use style.css, keep this reference, OR copy-paste its CSS contents below -->
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+    <style>
+        /* --- You may want to paste your style.css here for one-file portability --- */
+
+        /* Styles for the second website (Naše Růžový Bar) */
+        .container-bar-2 {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .info-section {
+            display: flex;
+            align-items: stretch;
+            justify-content: space-between;
+            margin-bottom: 60px;
+            flex-wrap: wrap;
+        }
+        .info-section.history .picture-frame,
+        .info-section.location .picture-frame {
+            width: 400px;
+            max-width: 95vw;
+            border: 7px solid #f9a6c8;
+            background: #fff6fa;
+            box-shadow: 0 8px 33px rgba(236, 52, 108, 0.14);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: stretch;
+            justify-content: center;
+            overflow: hidden;
+            flex: 0 0 400px;
+        }
+        .info-section.history .picture-frame img,
+        .info-section.location .picture-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .info-section.ingredients .picture-frame {
+            width: 400px;
+            height: 300px;
+            max-width: 95vw;
+            max-height: 60vw;
+            border: 7px solid #f9a6c8;
+            background: #fff6fa;
+            box-shadow: 0 8px 33px rgba(236, 52, 108, 0.14);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            flex: 0 0 400px;
+        }
+        .info-section.ingredients .picture-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .text {
+            flex: 1 1 480px;
+            background: rgba(255,255,255,0.89);
+            padding: 38px 34px;
+            box-shadow: 0 6px 28px rgba(236, 52, 108, 0.07);
+            color: #bc3570;
+            font-size: 1.19em;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .text ul, .text li {
+            color: #bc3570;
+            font-size: 1em;
+            margin-bottom: 0;
+        }
+        .info-section:nth-child(odd) .picture-frame { order: 1; }
+        .info-section:nth-child(odd) .text { order: 2; margin-left: 3vw; }
+        .info-section:nth-child(even) .picture-frame { order: 2; }
+        .info-section:nth-child(even) .text { order: 1; margin-right: 3vw; margin-left:0;}
+        @media (max-width: 1100px) {
+            .container-bar-2 {max-width: 98vw;}
+            .info-section {flex-direction: column; align-items: center;}
+            .text, .picture-frame {
+                margin: 0 0 28px 0 !important;
+                width: 95% !important;
+                max-width: 540px;
+            }
+            .info-section.history .picture-frame,
+            .info-section.location .picture-frame,
+            .info-section.ingredients .picture-frame {
+                width: 95% !important;
+                max-width: 540px;
+                height: auto;
+                min-height: 240px;
+                flex: 0 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- =========== FIRST WEBSITE CONTENT =========== -->
+<header>
+    <img src="./img/LOGO.final.verze.png" alt="logo" width="150px">
+    <h1>404 - Memory Not Found Bar</h1>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/404_memory_not_found?igsh=aGhrcHhocXY1Zm53" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/people/Bar-404-error/61578581576282/" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </div>
+</header>
+<div class="container">
+    <div class="welcome-panel" style="width: 50%; margin: 0 auto; text-align: center;">
+        <div class="text-panel">
+        <h1 class="welcome-text">Vítejte v našem růžovém baru!</h1>
+        <p>Není cesty zpět, pokud okusíte budete jich chtít pět!
+        <br>
+        <br>
+            kontakt: strawberry.bar.404error@gmail.com
+            <br>
+            <br>
+            Otevírací doba:
+            <br>
+              Pondělí–Čtvrtek: 16:00 – 1:00
+              <br>
+              Pátek–Sobota: 16:00 – 5:00
+              <br>
+              Neděle: 17:00 – 2:00
+        </p>
+        </div>
+        <div class="buttons">
+            <a class="primary-button" href="zkouska.html" target="_blank">O našich barmankách</a>
+            <a class="secondary-button" href="mapa tri tentokrat no gay.html">Kde nás najdete?</a>
+        </div>
+    </div>
+</div>
+<div class="menu-content">
+    <h2>Drink Menu</h2>
+    <div class="menu-grid">
+        <div class="menu-slot">
+            <div class="slot-image">
+                <a href="https://www.instagram.com/p/DMKt8E0I_pO/?igsh=MThsazhqaG80aGNlbw%3D%3D" target="_blank">
+                    <img src="img/image.png" alt="Drama Queen Colada" />
+                </a>
+            </div>
+            <h3>Drama Queen Colada</h3>
+            <p>Pije se s brčkem a agresivními poznámkami</p>
+            <div class="price">75 Kč</div>
+        </div>
+        <div class="menu-slot">
+            <div class="slot-image">
+                <a href="https://www.instagram.com/p/DMKvZiJoLhu/?igsh=bmViMXdoYm1kM2F6" target="_blank">
+                    <img src="img/image (1).png" alt="Frozen Aura" />
+                </a>
+            </div>
+            <h3>Frozen Aura</h3>
+            <p>Ledová královna v terapii</p>
+            <div class="price">85 Kč</div>
+        </div>
+        <div class="menu-slot">
+            <div class="slot-image">
+                <a href="https://www.instagram.com/p/DMKvqxrIIvg/?igsh=MXN0cHN4cXRuOHkxNQ==" target="_blank">
+                    <img src="img/image (2).png" alt="Pink Daydream" />
+                </a>
+            </div>
+            <h3>Pink Daydream Mist</h3>
+            <p>Snění na růžovém obláčku</p>
+            <div class="price">75 Kč</div>
+        </div>
+        <div class="menu-slot">
+            <div class="slot-image">
+                <a href="https://www.instagram.com/p/DMKxSaioGE-/?igsh=cmI3eXlvYW5rM2M2" target="_blank">
+                    <img src="img/levander.png" alt="Sopoforic Levander Elixir" />
+                </a>
+            </div>
+            <h3>Sopoforic Levander Elixir</h3>
+            <p>Levandulová chuť tohoto nápoje, vás přenese až do dalšího rána, takový spánek jste ještě nezažili</p>
+            <div class="price">85 Kč</div>
+        </div>
+        <div class="menu-slot">
+            <div class="slot-image">
+                <a href="https://www.instagram.com/p/DMKx4mkIVBu/?igsh=amw5OXZ5OXE3ZWRm" target="_blank">
+                    <img src="img/matcha.png" alt="Speed March" />
+                </a>
+            </div>
+            <h3>Speed March</h3>
+            <p>Propadněte se do energie pravé japonské matchy</p>
+            <div class="price">95 Kč</div>
+        </div>
+        <div class="menu-slot">
+            <div class="slot-image">
+                <a href="https://www.instagram.com/p/DMKyVUPI75A/?igsh=MTczaW9za2VvdG0xYg==" target="_blank">
+                    <img src="img/dragon.png" alt="Chinese Heartbreak Dragonball" />
+                </a>
+            </div>
+            <h3>Chinese Heartbreak Dragonball</h3>
+            <p>Vypalte ze sebe svoje démony, aby jste byli připravení do nového vztahu</p>
+            <div class="price">75 Kč</div>
+        </div>
+        <div class="menu-slot">
+            <div class="slot-image">
+                <a href="https://www.instagram.com/p/DMKyzm7oR7z/?igsh=MWg1eXZ2ZnY0dnhwZQ==" target="_blank">
+                    <img src="img/moonburnmartini.png" alt="moonburn martini" />
+                </a>
+            </div>
+            <h3>Moonburn Martini</h3>
+            <p>Zažijte ve vašem hrdlu to, co Drákula na slunci</p>
+            <div class="price">100 Kč</div>
+        </div>
+        <div class="menu-slot">
+            <div class="slot-image">
+                <a href="https://www.instagram.com/p/DMKy4nGo9x9/?igsh=MWRsejVmYTJzeTJ3aQ==" target="_blank">
+                    <img src="img/flamingo.png" alt="Flamingo" />
+                </a>
+            </div>
+            <h3>Euphoric Flamingo Delight</h3>
+            <p>Plaměňák šeptá: "Dej si ananasový drink, zkus tu euforii!"</p>
+            <div class="price">175 Kč</div>
+        </div>
+        <div class="menu-slot">
+            <div class="slot-image">
+                <a href="https://www.instagram.com/p/DMKznhmoraI/?igsh=emZjeHJ0d3p1aTdt" target="_blank">
+                    <img src="img/goldensunrise.png" alt="gldn sunrise" />
+                </a>
+            </div>
+            <h3>Golden Sunrise Bliss</h3>
+            <p>Ideální na povzbuzení, pokud rádi tančíte až do brzkého rána</p>
+            <div class="price">185 Kč</div>
+        </div>
+    </div>
+</div>
+<!-- Space separator or horizontal line -->
+<div style="height:70px;"></div> 
+<!-- =========== SECOND WEBSITE CONTENT =========== -->
+<div class="container-bar-2">
+    <!-- HISTORIE -->
+    <div class="info-section history">
+        <div class="picture-frame">
+            <img src="img/nase budobaa.jpg" alt="Historie baru">
+        </div>
+        <div class="text">
+            <strong>Jak to všechno začalo?</strong><br>
+            Náš růžový bar vznikl v roce 2022 díky společné touze několika přátel vytvořit místo, kde se budou lidé cítit jako doma, ať už přijdou na rychlý drink po práci nebo na dlouhý, zábavný večer s přáteli. Samotná budova baru má za sebou bohatou historii – byla původně domovem malého divadelního klubu. Rozhodli jsme se zachovat její specifickou atmosféru a přidat hravé prvky, které náš bar odlišují od ostatních.<br><br>
+            Po měsících renovace a hledání unikátního stylu jsme otevřeli dveře pro všechny, kteří milují originální koktejly, kvalitní alkohol a příjemné setkání ve stylovém prostředí. Zachovali jsme původní cihlové zdi a přidali ikonické růžové neonové detaily, které dnes tvoří vizuální srdce našeho baru.<br><br>
+            Postupně jsme si vydobyli pověst místa, kde se rodí nové příběhy – ať už během bouřlivých večírků, tichých rozhovorů ve dvou, nebo tematických barových nocí naplněných skvělou hudbou i atmosférou.
+        </div>
+    </div>
+
+    <!-- INGREDIENCE -->
+    <div class="info-section ingredients">
+        <div class="text">
+            <strong>Naše ingredience – kvalita zaručena</strong><br>
+            Věříme, že základem skvělého drinku jsou poctivé a čerstvé ingredience. Proto v našem baru používáme výhradně prémiový alkohol a sirupy připravené podle vlastních receptur. Domácí sirupy vyrábíme z bio ovoce od regionálních farmářů a naše džusy lisujeme každý den čerstvé.<br><br>
+            Rumy, giny, whiskey i likéry vybíráme od menších, často rodinných českých i zahraničních palíren, které kladou důraz na tradiční způsoby výroby a vysokou kvalitu. Voda na výrobu ledu i pro přípravu našich nápojů prochází čtyřstupňovou filtrací, abyste si mohli vychutnat každý doušek bez rušivých emelmentů.<br><br>
+            Na ekologii nám záleží – proto se snažíme minimalizovat odpad, používáme opakovaně využitelné brčka a podporujeme lokální palírny. Věříme, že to, co servírujeme, odráží nejen náš osobní přístup, ale také respsket k přírodě i našim hostům.
+        </div>
+        <div class="picture-frame">
+            <img src="img/dedek.jpg" alt="Naše ingredience">
+        </div>
+    </div>
+
+    <!-- LOKACE -->
+    <div class="info-section location">
+        <div class="picture-frame">
+            <img src="img/2bar.jpg" alt="Umístění baru">
+        </div>
+        <div class="text">
+            <strong>Kde nás najdete a kdy máme otevřeno?</strong><br>
+            Najdete nás na adrese <b>Národní 23</b>, v samém centru města, doslova pár kroků od Národní třídy i kulturní čtvrti. Bar leží přímo naproti Náplavce, což z něj dělá ideální místo pro začátek i konec večera.<br><br>
+            Prostředí baru nabízí jak moderní barovou zónu ideální na večerní posezení, tak klidnější koutky pro menší skupinky nebo páry, a v létě také oblíbenou venkovní zahrádku. Naši barmani pravidelně připravují tematické koktejlové menu a rádi vám poradí s výběrem podle vaší chuti.<br><br>
+            <strong>Otevírací doba:</strong>
+            <ul style="padding-left:20px;text-align:left;margin:4px 0 10px 0;">
+                <li><b>Pondělí–Čtvrtek:</b> 16:00 – 1:00</li>
+                <li><b>Pátek–Sobota:</b> 16:00 – 5:00</li>
+                <li><b>Neděle:</b> 17:00 – 2:00</li>
+            </ul>
+            Přijďte nás navštívit kdykoliv během otevírací doby, nebo pro rezervaci napište na:<br>
+            <b>strawberry.bar.404error@gmail.com</b><br>
+            – těšíme se na vaši návštěvu!
+        </div>
+    </div>
+</div>
+</body>
+</html>
