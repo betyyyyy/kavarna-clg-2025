@@ -151,6 +151,7 @@ button:hover {
     padding: 30px 25px;
     box-shadow: 0 10px 30px rgba(236, 52, 108, 0.15);
     text-align: center;
+    color:#e13d6e
 }
 
 /* Grid Layout for Menu */
@@ -201,13 +202,13 @@ button:hover {
 }
 
 .menu-slot h3 {
-    color: #E75480;
+    color:#e13d6e;
     margin: 10px 0;
     font-size: 1.3em;
 }
 
 .menu-slot p {
-    color: #545454;
+    color: #a3a3a3;
     font-size: 0.9em;
     margin: 10px 0;
 }
