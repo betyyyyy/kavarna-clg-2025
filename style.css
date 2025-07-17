@@ -208,3 +208,24 @@ button:hover {
 .social-icon:hover svg {
   transform: scale(2.0);
 }
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  flex-wrap: wrap;           /* allow multi-line wrapping */
+  gap: 15px;                 /* space between buttons */
+  margin: 20px;
+}
+
+.primary-button,
+.secondary-button {
+  background: #fd8cae;
+  color: #fff;
+  border: 2px solid #fa739b;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 1em;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+  flex: 0 1 auto;            /* allow shrinking, no forced growth */
+}
