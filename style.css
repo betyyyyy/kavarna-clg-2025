@@ -90,7 +90,22 @@ button:hover {
     color: #ffffff;
     border: 2px solid #e13d6e;
 }
+.secondary-button {
+    background: #fd8cae;
+    color: #ffffff;
+    border: 2px solid #fa739b;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 1em;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
 
+.secondary-button:hover {
+    background: #fd588a;
+    color: #ffffff;
+    border: 2px solid #e13d6e;
+}
 /* Button Wrapper */
 .button-wrapper {
     display: flex;
