@@ -15,13 +15,13 @@ header img {
   width: 150px;
   text-align: left;
       position: relative;
-    top: -30px;
+    top: -10px;
     left: -30px
 }
 header h1 {
-  margin: 0;
+  margin: 0; 
   text-align: center;
-  position: relative;
+   position: relative;
   top: -60px;
   font-size: 5rem;
   font-weight: lighter;
