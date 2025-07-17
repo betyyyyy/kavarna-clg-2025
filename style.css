@@ -83,6 +83,33 @@ button:hover {
     font-size: 1em;
     text-decoration: none;
     transition: background 0.3s, color 0.3s;
+
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between buttons */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    margin-top: 20px;
+}
+
+.primary-button,
+.secondary-button {
+    padding: 12px 24px;
+    background-color: #ff6699;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    min-width: 180px; /* ensures both buttons have a minimum width */
+    text-align: center;
+}
+
+.primary-button:hover,
+.secondary-button:hover {
+    background-color: #ff3366;
 }
 
 .primary-button:hover {
