@@ -26,6 +26,8 @@ header h1 {
 
     .text-panel {
     padding-bottom: 20px;
+    width: 500px;
+    place-self: end center;
     }
 /* Welcome Section */
 .container {
@@ -49,7 +51,7 @@ header h1 {
     font-size: 2em; /* Larger text */
     font-weight: bold;
     color: #D7007A;
-    padding: 50px;
+    padding: 2px;
     margin: 0;
     text-align: center;
     place-self: end center;
