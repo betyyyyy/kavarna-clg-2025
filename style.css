@@ -223,6 +223,7 @@ button:hover {
   display: flex;
   justify-content: center;
   gap: 25px;
+  color:#D7007A
 }
 
 .social-icon svg {
